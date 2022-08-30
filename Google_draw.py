@@ -1,0 +1,77 @@
+import turtle as t
+
+
+g = t.Turtle()
+t.bgcolor("black")
+g.color("#4285F4", "#4285F4")
+g.pensize(5)
+
+# [Google Colors}
+red = "#DB4437"
+blue = "#4285F4"
+green = "#0F9D58"
+yellow = "#F4B400"
+
+def google_draw():
+    g.forward(120)
+    g.right(90)
+    g.circle(-150, 50)
+    g.color(green)
+    g.circle(-150, 100)
+    g.color(yellow)
+    g.circle(-150, 60)
+    g.color(red, red)
+    g.begin_fill()
+    g.circle(-150, 100)
+    g.right(90)
+    g.forward(50)
+    g.right(90)
+    g.circle(100, 100)
+    g.right(90)
+    g.forward(50)
+    g.end_fill()
+    g.begin_fill()
+    g.color(yellow, yellow)
+    g.right(180)
+    g.forward(50)
+    g.right(90)
+    g.circle(100, 60)
+    g.right(90)
+    g.forward(50)
+    g.right(90)
+    g.circle(-150, 60)
+    g.end_fill()
+    g.right(90)
+    g.forward(50)
+    g.right(90)
+    g.circle(100, 60)
+    g.color(green, green)
+    g.begin_fill()
+    g.circle(100, 100)
+    g.right(90)
+    g.forward(50)
+    g.right(90)
+    g.circle(-150, 100)
+    g.right(90)
+    g.forward(50)
+    g.end_fill()
+    g.right(90)
+    g.circle(100, 100)
+    g.color(blue, blue)
+    g.begin_fill()
+    g.circle(100, 25)
+    g.left(115)
+    g.forward(65)
+    g.right(90)
+    g.forward(42)
+    g.right(90)
+    g.forward(124)
+    g.right(90)
+    g.circle(-150, 50)
+    g.right(90)
+    g.forward(50)
+    g.end_fill()
+    
+
+
+google_draw()
